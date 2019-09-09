@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+form, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+form, input, textarea, button, label {
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+
+
+.contact {
+    clear: both;
+    margin:2px 1px;
+    padding:0;
+    float: left;
+    width: 100%;
+    max-width: 640px;
+    input, textarea, button, select, label {
+        margin:1px 1px 1px 1px;
+        padding:0 10px;
+        float: left;
+        width: 100%;
+        width: calc(100% - 2px);
+        border:none;
+        line-height: 30px;
+    }
+    label {
+        padding: 0;
+        line-height: 35px;
+        float: left;
+        input[type="checkbox"] {
+            float: left;
+            width: auto;
+            line-height: 30px;
+            margin: 10px;
+        }
+    }
+    button {
+        width: calc(20% - 2px);
+        margin: 1px 1px;
+        text-transform: uppercase;
+    }
+    &::before {
+        content:'GET IN TOUCH';
+        float: left;
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}
+
+
+.login {
+    margin:2px 1px;
+    padding:0;
+    float: left;
+    width: 100%;
+    max-width: 320px;
+    clear: both;
+    display: block;
+    input, textarea, button, select {
+        padding:0 10px;
+        float: left;
+        width: 100%;
+        border:none;
+        line-height: 30px;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    input {
+        width: 40%;
+        width: calc(40% - 2px);
+        margin: 0 1px;
+    }
+    button {
+        width: calc(20% - 2px);
+        margin: 0 1px;
+        text-transform: uppercase;
+    }
+    &::before {
+        content:'LOGIN';
+        float: left;
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}
+
+
+.register {
+    clear: both;
+    margin:2px 1px;
+    padding:0;
+    float: left;
+    width: 100%;
+    max-width: 640px;
+    input, textarea, button, select, label {
+        margin:1px 1px 1px 1px;
+        padding:0 10px;
+        float: left;
+        width: 100%;
+        width: calc(100% - 2px);
+        border:none;
+        line-height: 30px;
+    }
+    label {
+        padding: 0;
+        line-height: 35px;
+        float: left;
+        input[type="checkbox"] {
+            float: left;
+            width: auto;
+            line-height: 30px;
+            margin: 10px;
+        }
+    }
+    button {
+        width: calc(20% - 2px);
+        margin: 1px 1px;
+        text-transform: uppercase;
+    }
+    &::before {
+        content:'REGISTER';
+        float: left;
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}
+
+
+.account {
+    clear: both;
+    margin:2px 1px;
+    padding:0;
+    float: left;
+    width: 100%;
+    max-width: 640px;
+    input, textarea, button, select, label {
+        margin:1px 1px 1px 1px;
+        padding:0 10px;
+        float: left;
+        width: 100%;
+        width: calc(100% - 2px);
+        border:none;
+        line-height: 30px;
+    }
+    label {
+        padding: 0;
+        line-height: 35px;
+        float: left;
+        input[type="checkbox"] {
+            float: left;
+            width: auto;
+            line-height: 30px;
+            margin: 10px;
+        }
+    }
+    button {
+        width: calc(20% - 2px);
+        margin: 1px 1px;
+        text-transform: uppercase;
+    }
+    &::before {
+        content:'Account settings';
+        float: left;
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}
+.subscribe {
+    clear: both;
+    margin:2px 1px;
+    padding:0;
+    float: left;
+    width: 100%;
+    max-width: 640px;
+    input, textarea, button, select, label {
+        margin:1px 1px 1px 1px;
+        padding:0 10px;
+        float: left;
+        width: 100%;
+        width: calc(100% - 2px);
+        border:none;
+        line-height: 30px;
+    }
+    label {
+        padding: 0;
+        line-height: 35px;
+        float: left;
+        input[type="checkbox"] {
+            float: left;
+            width: auto;
+            line-height: 30px;
+            margin: 10px;
+        }
+    }
+    button {
+        width: calc(20% - 2px);
+        margin: 1px 1px;
+        text-transform: uppercase;
+    }
+    &::before {
+        content:'Newsletter subscription';
+        float: left;
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+}

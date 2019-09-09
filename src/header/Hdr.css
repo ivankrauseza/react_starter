@@ -1,0 +1,256 @@
+#header {float:left; width:100%;padding:0px;box-sizing:border-box;}
+#header a {text-decoration: none; color: #EEEEEE;}
+#header header {position:relative;z-index:999;}
+#header header .logo,
+#header header nav {
+    margin:0; width: auto;
+    position: fixed;padding: 30px;line-height:100%;box-sizing: border-box;
+}
+#header header .logo {
+    top:0; left:0;
+    font-size: 28px;letter-spacing: -3px; font-weight: 300;
+}
+#header header .logo strong {font-weight: 700;color: #FFFFFF;}
+#header header nav {
+    top:0; right:0;
+    line-height: 30px;
+}
+#header header nav div {
+    float: left;
+    margin:0; padding:0; width: auto;
+}
+#header header nav div ul {
+    margin:0 auto; padding:0; width: auto;
+    list-style: none;
+}
+#header header nav div ul li {
+    float: left; width: auto;
+}
+#header header nav div ul li a {
+    text-decoration: none;
+}
+
+/*MAIN LINKS*/
+#header header nav div.quicklinks {
+    margin:0; padding:0; display: block;
+
+}
+#header header nav div.quicklinks ul li {
+    position: relative;
+    margin: 0px 15px;
+}
+#header header nav div.quicklinks ul li a {
+    line-height: 30px;  font-size: 16px;
+}
+#header header nav div.quicklinks ul li:hover a:after {
+    width: 100%; height: 2px; background: #FFFFFF;
+    content: "";
+    position: absolute; top:100%; left:50%; transform: translate(-50%,-50%);
+}
+
+/*MAIN LINKS*/
+#header header nav div.mainlinks {
+    margin:0; padding:0; display: block;
+    margin-left: 45px; position: relative;
+}
+#header header nav div.mainlinks ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+
+/*BURGER*/
+
+/*MOBILE MENU*/
+.mobile .burgeroff,
+.mobile .burgeron {
+    z-index: 999;position: absolute;top: 0;right: 0;transform: translate(-0%, 0%);
+    display:block;overflow: visible;cursor: pointer;
+    margin: -5px 0 0 0px;padding: 0px;width: 30px;height: 40px;
+    font-size: 12px; line-height: 100%;
+    border:none;background: none;
+
+}
+.mobile .burgeroff span {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    width:25px; height: 2px;
+    background: #EEEEEE;
+    z-index: 9999;
+}
+.burgeron span {
+    -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+    position: absolute;top: 0;left: 50%;transform: translate(-50%,0%);
+    display: block;width:100%; height: 2px;
+    background: #FFFFFF;
+}
+.mobile .burgeron span:nth-child(2),
+.mobile .burgeroff span:nth-child(2) {position: absolute;top: 30%;left: 50%;transform: translate(-50%,0px);}
+.mobile .burgeron span:nth-child(3),
+.mobile .burgeroff span:nth-child(3) {position: absolute;top: 70%;left: 50%;transform: translate(-50%,-2px);}
+.mobile .burgeron:hover span:nth-child(1),
+.mobile .burgeroff:hover span:nth-child(1) {
+    position: absolute;top: 50%;left: 20%;transform: translate(-50%,-50%);
+    animation:myship 0.3s;-moz-animation:myship 0.3s;-webkit-animation:myship 0.3s;
+}
+@keyframes myship{
+    0% {left:50%;}
+    100% {left:20%;}
+}
+@-moz-keyframes myship{
+    0% {left:50%;}
+    100% {left:20%;}
+}
+@-webkit-keyframes myship{
+    0% {left:50%;}
+    100% {left:20%;}
+}
+
+
+.mobile .burgeron span:nth-child(1) {
+    display:none;
+}
+.mobile .burgeron span:nth-child(2) {
+    top: 50%;
+    left: 0%;
+    transform: rotate(45deg) translate(-0%, -0%);
+    animation: rotateL 0.3s;
+    -moz-animation: rotateL 0.3s;
+    -webkit-animation: rotateL 0.3s;
+}
+@keyframes rotateL {from {transform: rotate(-0deg) translate(-0%,-0%);} to{transform: rotate(45deg) translate(-0%,-0%);}}
+@-moz-keyframes rotateL{from {transform: rotate(-0deg) translate(-0%,-0%);} to{transform: rotate(45deg) translate(-0%,-0%);}}
+@-webkit-keyframes rotateL{from {transform: rotate(-0deg) translate(-0%,-0%);} to{transform: rotate(45deg) translate(-0%,-0%);}}
+
+.mobile .burgeron span:nth-child(3) {
+    top: 50%;
+    left: 0%;
+    transform: rotate(-45deg) translate(-0%,-0%);
+    animation:rotateR 0.5s;-moz-animation:rotateR 0.5s;-webkit-animation:rotateR 0.5s;
+}
+@keyframes rotateR{from {transform: rotate(-0deg) translate(-0%,-0%);} to{transform: rotate(-45deg) translate(-0%,-0%);}}
+@-moz-keyframes rotateR{from {transform: rotate(-0deg) translate(-0%,-0%);} to{transform: rotate(-45deg) translate(-0%,-0%);}}
+@-webkit-keyframes rotateR{from {transform: rotate(-0deg) translate(-0%,-0%);} to{transform: rotate(-45deg) translate(-0%,-0%);}}
+
+
+
+/*HEADER LAYOUT*/
+.nav {
+    z-index: 998; position: fixed; top:0;left: 0;
+    float: left; width:100%; height:10px; display: block;
+    padding:0;
+    background:rgba(0,0,0,0.1);
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav .mainmenulist {
+    margin-left:-100vw;
+    display: none;
+    float:left;
+    width: 100%;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2 ease;
+    padding: 30px; box-sizing: border-box;
+}
+
+.nav .mainmenulist > ul {
+    float: left;
+    width: auto;
+    margin:60px 0 0 0;
+    padding: 0;
+    position: relative;
+}
+.nav .mainmenulist > ul > li {
+    z-index: 999;
+    display:block;
+    width: auto;
+    font-size: 20px;
+    line-height: 125%;
+    padding: 0 0 10px 0;
+}
+.nav .mainmenulist > ul > li > ul {
+    z-index: -1;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0%;
+}
+.nav .mainmenulist > ul > li > ul > li {
+    font-size: 15px;
+    line-height: 125%;
+}
+
+.animate{
+    animation: myAnimation 500ms;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-iteration-count:1;
+    animation-delay: 0;
+    animation-timing-function: 1;
+    animation-direction: alternate;
+
+    -webkit-animation: myAnimation 500ms;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0;
+    -webkit-animation-timing-function: 1;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation: myAnimation 500ms;
+    -moz-animation-direction: alternate;
+    -moz-animation-play-state: running;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0;
+    -moz-animation-timing-function: 1;
+    -moz-animation-direction: alternate;
+
+    -o-animation: myAnimation 500ms;
+    -o-animation-direction: alternate;
+    -o-animation-play-state: running;
+    -o-animation-iteration-count: 1;
+    -o-animation-delay: 0;
+    -o-animation-timing-function: 1;
+    -o-animation-direction: alternate;
+}
+
+@keyframes myAnimation {
+    0%      { margin-left:-100%;}
+    100%    {  margin-left: 0%; }
+}
+@-webkit-keyframes myAnimation {
+    0%      { margin-left:-100%;}
+    100%    {  margin-left: 0%; }
+}
+@-moz-keyframes myAnimation {
+    0%      { margin-left:-100%;}
+    100%    {  margin-left: 0%; }
+}
+@-o-keyframes myAnimation {
+    0%      { margin-left:-100%;}
+    100%    {  margin-left: 0%; }
+}
+
+/*mobile*/
+@media only screen and (max-width: 600px) {
+    #header header .logo, #header header nav {padding: 15px;}
+    #header header nav div.quicklinks {display: none;}
+    .nav .mainmenulist {padding: 15px;}
+}
+
+.is-visible {background: #FF513F;}
+.is-hidden { background: #000000;}

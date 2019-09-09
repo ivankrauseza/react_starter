@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+form, input, textarea, button {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+form, input, textarea, button, label {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.contact {
+  clear: both;
+  margin: 2px 1px;
+  padding: 0;
+  float: left;
+  width: 100%;
+  max-width: 640px;
+}
+.contact input, .contact textarea, .contact button, .contact select, .contact label {
+  margin: 1px 1px 1px 1px;
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+  width: calc(100% - 2px);
+  border: none;
+  line-height: 30px;
+}
+.contact label {
+  padding: 0;
+  line-height: 35px;
+  float: left;
+}
+.contact label input[type=checkbox] {
+  float: left;
+  width: auto;
+  line-height: 30px;
+  margin: 10px;
+}
+.contact button {
+  width: calc(20% - 2px);
+  margin: 1px 1px;
+  text-transform: uppercase;
+}
+.contact::before {
+  content: "GET IN TOUCH";
+  float: left;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.login {
+  margin: 2px 1px;
+  padding: 0;
+  float: left;
+  width: 100%;
+  max-width: 320px;
+  clear: both;
+  display: block;
+}
+.login input, .login textarea, .login button, .login select {
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+  border: none;
+  line-height: 30px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.login input {
+  width: 40%;
+  width: calc(40% - 2px);
+  margin: 0 1px;
+}
+.login button {
+  width: calc(20% - 2px);
+  margin: 0 1px;
+  text-transform: uppercase;
+}
+.login::before {
+  content: "LOGIN";
+  float: left;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.register {
+  clear: both;
+  margin: 2px 1px;
+  padding: 0;
+  float: left;
+  width: 100%;
+  max-width: 640px;
+}
+.register input, .register textarea, .register button, .register select, .register label {
+  margin: 1px 1px 1px 1px;
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+  width: calc(100% - 2px);
+  border: none;
+  line-height: 30px;
+}
+.register label {
+  padding: 0;
+  line-height: 35px;
+  float: left;
+}
+.register label input[type=checkbox] {
+  float: left;
+  width: auto;
+  line-height: 30px;
+  margin: 10px;
+}
+.register button {
+  width: calc(20% - 2px);
+  margin: 1px 1px;
+  text-transform: uppercase;
+}
+.register::before {
+  content: "REGISTER";
+  float: left;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.account {
+  clear: both;
+  margin: 2px 1px;
+  padding: 0;
+  float: left;
+  width: 100%;
+  max-width: 640px;
+}
+.account input, .account textarea, .account button, .account select, .account label {
+  margin: 1px 1px 1px 1px;
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+  width: calc(100% - 2px);
+  border: none;
+  line-height: 30px;
+}
+.account label {
+  padding: 0;
+  line-height: 35px;
+  float: left;
+}
+.account label input[type=checkbox] {
+  float: left;
+  width: auto;
+  line-height: 30px;
+  margin: 10px;
+}
+.account button {
+  width: calc(20% - 2px);
+  margin: 1px 1px;
+  text-transform: uppercase;
+}
+.account::before {
+  content: "Account settings";
+  float: left;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.subscribe {
+  clear: both;
+  margin: 2px 1px;
+  padding: 0;
+  float: left;
+  width: 100%;
+  max-width: 640px;
+}
+.subscribe input, .subscribe textarea, .subscribe button, .subscribe select, .subscribe label {
+  margin: 1px 1px 1px 1px;
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+  width: calc(100% - 2px);
+  border: none;
+  line-height: 30px;
+}
+.subscribe label {
+  padding: 0;
+  line-height: 35px;
+  float: left;
+}
+.subscribe label input[type=checkbox] {
+  float: left;
+  width: auto;
+  line-height: 30px;
+  margin: 10px;
+}
+.subscribe button {
+  width: calc(20% - 2px);
+  margin: 1px 1px;
+  text-transform: uppercase;
+}
+.subscribe::before {
+  content: "Newsletter subscription";
+  float: left;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+/*# sourceMappingURL=forms.css.map */

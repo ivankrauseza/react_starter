@@ -1,0 +1,36 @@
+hr {
+    float: left; display: block; width: 100%; clear: both;
+    margin:15px 0 15px 0;
+}
+.productArchive {
+     float: left; display: block; width: 100%; clear: both;
+ }
+.productList {
+     float: left; display: block; width: 100%; clear: both;
+ }
+.productList ul {
+    margin: 0; padding: 0; list-style: none;
+    cursor: pointer;
+}
+
+.productCart {
+    float: left; display: block; width: 100%; clear: both;
+}
+
+.userOrder {float: left; width:100%;margin:0 0 15px 0; padding:15px; list-style: none; border:dotted 1px #EEEEEE; box-sizing: border-box;}
+.orderList {float: left; width:100%;margin:0 0 15px 0; padding:15px; list-style: none; border:dotted 1px #EEEEEE; box-sizing: border-box;}
+.orderDetails {float: left; width:100%;margin:0; padding:5px; list-style: none; border-bottom:dotted 1px #EEEEEE; box-sizing: border-box;}
+.orderDetails li { width: auto; float: left; padding: 0 5px; box-sizing: border-box;}
+
+.commerce h3 {
+    font-size: 20px;margin:15px 0 15px 0;padding: 0;
+}
+.commerce h4 {
+    font-size: 16px;margin:15px 0 15px 0;padding: 0;
+}
+.commerce h5 {
+    font-size: 14px;margin:15px 0 15px 0;padding: 0;
+}
+.commerce h6 {
+    font-size: 12px;margin:15px 0 15px 0;padding: 0;
+}

@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, p {
+    margin:0;
+    padding: 0;
+}
+h2 {
+    padding:0 0 10px 0;
+    font-weight: 300;
+    opacity: 0.5;
+}
+p {
+    padding:0 0 10px 0;
+}
+
+#status {}
+#statusb {
+    position: fixed;
+    top:0;
+    right: 0;}
+#statusc {
+    position: fixed;
+    top:25px;
+    right: 0;}
